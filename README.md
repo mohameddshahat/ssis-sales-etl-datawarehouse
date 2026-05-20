@@ -26,6 +26,8 @@ To simulate a real-world **Data Engineering workflow** by:
 
 Database: `Sales_OLTP`
 
+![database_schema](images/database_schema.jpg)
+
 Tables include:
 
 * Customer
@@ -44,13 +46,17 @@ Database: `Sales_Dwh`
 ### ⭐ Fact Table
 
 * Fact_sales
+![facttable](images/control_flow_facttable.png)
 
 ### 📊 Dimension Tables
 
 * DimCustomer
+* ![dimcustomers](images/data_flow_dimcustomers.png)
 * DimProduct
+* ![dimproducts](images/data_flow_dimproducts.png)
 * DimDate
 * DimSalesman
+* ![dimsalesman](images/data_flow_dimsalesman.png)
 
 ---
 
@@ -58,7 +64,7 @@ Database: `Sales_Dwh`
 
 ### 1️⃣ Control Flow
 
-![Control Flow](images/control_flow.png)
+![Control Flow](images/data_flow.png)
 
 Steps:
 
@@ -88,7 +94,7 @@ Process:
 
 ### 3️⃣ Data Warehouse Schema
 
-![Data Warehouse](images/datawarehouse_schema.png)
+![Data Warehouse](images/datawarehouse_schema.jpg)
 
 ---
 
